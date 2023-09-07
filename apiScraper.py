@@ -55,10 +55,10 @@ if __name__ == '__main__':
     # Check if scrapeList.txt exists, if not, create it
     if not os.path.exists('scrapeList.txt'):
         with open('scrapeList.txt', 'w') as file:
-            file.write("#https://example.com")
+            file.write("# https://example.com")
             file.write("# http://www.example2.com")
             file.write("# https://store.example.net/catalog")
-            file.write("# https://www.example3.com")
+            file.write("# https://archive.example3.com")
             file.write("# http://example4.net")
             file.write("# https://www.example5.com/catalog")
             file.write("# http://store.example6.net")
